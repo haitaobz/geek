@@ -7,19 +7,19 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-    <title>Theme Template for Bootstrap</title>
+    <title>极客__游戏账号表格生成器</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="../../dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap-theme.min.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <link href="theme.css" rel="stylesheet">
+    <link href="static/css/bootstrap-theme.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -30,10 +30,12 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
 
-<body>
-  <!-- Fixed navbar -->
+  <body>
+
+    <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -43,14 +45,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">极客</a>
+          <a class="navbar-brand" href="#">Bootstrap theme</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">首页</a></li>
-            <li><a href="#xieyi">合租协议</a></li>
-            <li><a href="#about">资料生成器</a></li>
-            <li><a href="#contact">联系我们</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -67,21 +68,44 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <div class="container theme-showcase" role="main">
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>公告</h1>
-        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
-      </div>
-      <div class="page-header">
-        <h1>
-        <span class="label label-danger">Danger</span>
-        </h1>
-      </div>
-      <p>
 
-      </p>
-    </div>
+    <div class="container theme-showcase" role="main" style="margin-top: 70px;">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron" style="background-color: #666666; color: #ffffff" >
+        <h1>极客</h1>
+        <p><small>填写并提交资料数据<br>最后拷贝发送给客服</small></p>
+      </div>
+
+
+     <!--  <div class="page-header">
+        <h1><span class="label label-default">游戏账号表格生成器</span></h1>
+      </div>
+      <div class="row">
+        <div class="col-xs-3"><button type="button" class="btn btn-sm btn-danger">王者荣耀</button></div>
+        <div class="col-xs-3"><button type="button" class="btn btn-sm btn-warning">CF手游</button></div>
+        <div class="col-xs-3"><button type="button" class="btn btn-sm btn-primary">火影忍者</button></div>
+        <div class="col-xs-3"><button type="button" class="btn btn-sm btn-success">和平精英</button></div>
+      </div> -->
+
+      <div class="page-header">
+       <h1><span class="label label-default">游戏账号表格生成器</span></h1>
+      </div>
+      <div class="alert alert-success" role="alert">
+        <strong>王者荣耀</strong>账号表格生成器
+      </div>
+      <div class="alert alert-info" role="alert">
+        <strong>CF手游</strong>账号表格生成器
+      </div>
+      <div class="alert alert-warning" role="alert">
+        <strong>火影忍者</strong>账号表格生成器
+      </div>
+      <div class="alert alert-danger" role="alert">
+        <strong>和平精英</strong>账号表格生成器
+      </div>
+    </div> <!-- /container -->
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -91,7 +115,5 @@
     <script src="../../assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-</body>
-
+  </body>
 </html>
-
