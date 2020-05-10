@@ -709,7 +709,7 @@ function WebMessage() {
         case "-100":
             return false; break;
         case "-99":
-            Tips("网络繁忙，请稍后再试！", 2); break;
+           
         case "1":
             Tips("提交成功！请复制框内的数字字母给客服！", 1);
             break;
