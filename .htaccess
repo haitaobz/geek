@@ -1,4 +1,4 @@
 RewriteCond %{HTTP_HOST} ^geek.test123321.online$  RewriteCond %{REQUEST_URI} !^/geek/ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /geek/$1 RewriteCond %{HTTP_HOST} ^geek.test123321.online$
-RewriteRule ^(/)?$ geek/index.php [L]
+RewriteRule ^(/)?$ geek/index.html [L]
